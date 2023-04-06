@@ -3,7 +3,13 @@ from csv import DictReader
 
 from django.contrib.auth import get_user_model
 from django.core.management.base import BaseCommand
-from api_yamdb.reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
+from api_yamdb.reviews.models import (Category,
+                                      Comment,
+                                      Genre,
+                                      GenreTitle,
+                                      Review,
+                                      Title
+                                     )
 
 User = get_user_model()
 
