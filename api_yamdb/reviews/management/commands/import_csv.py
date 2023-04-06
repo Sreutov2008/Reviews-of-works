@@ -8,8 +8,7 @@ from api_yamdb.reviews.models import (Category,
                                       Genre,
                                       GenreTitle,
                                       Review,
-                                      Title
-                                     )
+                                      Title)
 
 User = get_user_model()
 
